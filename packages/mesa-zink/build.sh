@@ -5,4 +5,4 @@ PKG_PRETTY_NAME="Mesa Zink (xlib) Driver"
 GIT_URL=https://github.com/alexvorxx/zink-xlib-termux
 GIT_COMMIT=c1567e9
 LDFLAGS="-L$PREFIX/lib -landroid-shmem -lxcb-xfixes"
-MESON_ARGS="-Dgallium-drivers=zink,swrast -Dvulkan-drivers= -Dglvnd=enabled -Dplatforms=x11 -Dxmlconfig=disabled -Dllvm=disabled -Dgallium-va=disabled -Dopengl=true -Degl=enabled Ddri3=disabled -Dglx=xlib -Dzstd=enabled" 
+MESON_ARGS="-Dgallium-drivers=zink,swrast -Dvulkan-drivers= -Dglvnd=enabled -Dplatforms=x11 -Dxmlconfig=disabled -Dllvm=disabled -Dgallium-va=disabled -Dopengl=true -Degl=enabled -Ddri3=disabled -Dglx=xlib -Dzstd=enabled" 
